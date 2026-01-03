@@ -1,5 +1,3 @@
-// lib/providers/router_provider.dart
-
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../features/splash/presentation/splash_screen.dart';

@@ -1,5 +1,3 @@
-// lib/providers/wallet_provider.dart
-
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../core/constants/app_constants.dart';
 
@@ -34,10 +32,8 @@ class WalletNotifier extends StateNotifier<WalletState> {
   Future<bool> topUp(double amount) async {
     state = state.copyWith(isLoading: true);
 
-    // Simulate API call
     await Future.delayed(AppConstants.apiCallDelay);
 
-    // Mock successful top-up
     state = state.copyWith(
       balance: state.balance + amount,
       isLoading: false,

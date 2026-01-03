@@ -1,5 +1,3 @@
-// lib/main.dart
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -10,7 +8,6 @@ import 'providers/router_provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize SharedPreferences
   final sharedPreferences = await SharedPreferences.getInstance();
 
   runApp(
@@ -23,7 +20,6 @@ void main() async {
   );
 }
 
-// Provider for SharedPreferences
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
   throw UnimplementedError();
 });

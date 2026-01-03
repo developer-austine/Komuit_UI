@@ -1,5 +1,3 @@
-// lib/features/payment/data/payment_model.dart
-
 class Payment {
   final String id;
   final String description;

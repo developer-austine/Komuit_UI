@@ -230,12 +230,5 @@ To add a new feature:
 
 This project was created for evaluation purposes as part of the Komiut Flutter Developer take-home assignment.
 
-## 🙏 Acknowledgments
-
-Built with Flutter and lots of ☕
-
 ---
-
-**Submission Date:** January 2026  
-**Assignment:** Komiut Flutter Take-Home Assignment  
-**Developer:** [Your Name]
+ >ApringBoot dev Austine Alex
