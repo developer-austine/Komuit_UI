@@ -202,12 +202,6 @@ The app uses mock data for all operations:
 - Easy to test and maintain
 - Production-ready patterns
 
-## 📱 Screenshots
-
-*Screenshots can be added here*
-
-## 👨‍💻 Developer Notes
-
 ### Important Files
 
 1. **main.dart** - App initialization with Riverpod
